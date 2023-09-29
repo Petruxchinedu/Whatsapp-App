@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mystatus{
+    /* width: 100%; */
+    width: 420px;
+    height: 10vh;
+    /* border: 1px solid blue; */
+}
+
+#pp{
+    width: 13%;
+    height: 70%;
+    background: url(images/butterfly.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 2%;
+}
+
+#addstatus{
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top: 33px;
+    left: 35px;
+    
+}
+
+.h{
+    margin-top: -8px;
+    margin-left: 2px;
+}
+
+#words{
+    width: 80%;
+    height: 100%;
+}
+
+#peterstatus{
+    /* width: 100%; */
+    width: 420px;
+    height: 10vh;
+    /* border: 1px solid blue; */
+}
+
+#peterpp{
+    width: 13%;
+    height: 70%;
+    background: url(images/Mr\ Peter.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 2%;
+}
+
+#okikistatus{
+    /* width: 100%; */
+    width: 420px;
+    height: 10vh;
+    /* border: 1px solid blue; */
+}
+
+#okikipp{
+    width: 13%;
+    height: 70%;
+    background: url(images/okiki.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 2%;
+}
+
+#bolustatus{
+    /* width: 100%; */
+    width: 420px;
+    height: 10vh;
+    /* border: 1px solid blue; */
+}
+
+#bolupp{
+    width: 13%;
+    height: 70%;
+    background: url(images/Mr\ Bolu.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 2%;
+}
+
+#akinstatus{
+    /* width: 100%; */
+    width: 420px;
+    height: 10vh;
+    /* border: 1px solid blue; */
+}
+
+#akinpp{
+    width: 13%;
+    height: 70%;
+    background: url(images/butterfly.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 2%;
+}
+
+#salamstatus{
+    /* width: 100%; */
+    width: 420px;
+    height: 10vh;
+    /* border: 1px solid blue; */
+}
+
+#salampp{
+    width: 13%;
+    height: 70%;
+    background: url(images/butterfly.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 2%;
+}
+
+footer{
+    width: 420px;
+    padding-left: 5%;
+}
+
+footer span{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+.center{
+    width: 100%;
+    height: 100%;
+    background-color: #128c7e;
+    width: 420px;
+    height: 120px;
+    
+    
+}
+
+.nav{
+    list-style: none;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+}
+
+.lin{
+    display: inline;
+    position: absolute;
+    left: 15px;
+    top:40px;
+}
+
+.blah{
+    margin-left: 300px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.cam{
+    margin-right: 20px;
+}
+
+.search{
+    margin-right: 15px;
+}
+
+.dots{
+    margin-top: 5px;
+}
+
+.line{
+    padding-right: 5px;
+    display: inline;
+    margin-top: 40px;    
+    margin-left: 15px;
+}
+
+.lind{
+    text-align: center;
+    display: inline;
+    margin-left: 90px;
+}
+
+.nave{
+    position: absolute;
+    top: 87px;    
+    float: left;
+    list-style: none;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+}
+
+.anc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #96b0ac;
+}
+
+.img{
+    width: 17px;
+}
+
+.com{
+    position: absolute;
+    top: 87px;
+}
+
+.img2{
+    width: 27px;
+}
+
+.img3{
+    margin-top: -8px;
+    width: 37px;
+}
+        
+.img4{
+    width: 23px;
+}
