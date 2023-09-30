@@ -127,7 +127,25 @@ footer span{
     font-size: 12px;
 }
 
+#wordingstatus{
+    width: 2.5%;
+    height: 5vh;
+    background: rgb(210, 238, 231);
+    position: fixed;
+    top: 600px;
+    left: 370px;
+}
 
+#mediastatus{
+    width: 3.5%;
+    height: 7vh;
+    background: green;
+    padding-top: 0.7%;
+    padding-left: 0.5%;
+    position: fixed;
+    top: 655px;
+    left: 365px;
+}
 
 
 
@@ -226,4 +244,20 @@ footer span{
         
 .img4{
     width: 23px;
+}
+
+@media (max-width:420px) {
+    #wordingstatus{
+        width: 10%;
+        top: 710px;
+        left: 360px;
+    }
+
+    #mediastatus{
+        width: 15%;
+        top: 780px;
+        left: 350px;
+        padding-top: 3%;
+        padding-left: 3%;
+    }
 }

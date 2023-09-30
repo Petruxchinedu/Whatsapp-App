@@ -72,3 +72,26 @@ position: absolute;
         .img4{
             width: 23px;
         }
+
+#threedotsdropdown{
+    width: 200px;
+    height: 250px;
+    background: white;
+    position: fixed;
+    top: 70px;
+    left: 215px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    z-index: 99;
+    display: none;
+}
+
+#threedotsdropdown a{
+    padding-top: 25px;
+    padding-left: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
