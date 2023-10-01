@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-#mystatus{
+#mystatus {
     /* width: 100%; */
     width: 420px;
     height: 10vh;
     /* border: 1px solid blue; */
 }
 
-#pp{
+#pp {
     width: 13%;
     height: 70%;
     background: url(images/butterfly.jpeg);
@@ -20,7 +20,7 @@
     margin-top: 2%;
 }
 
-#addstatus{
+#addstatus {
     width: 40%;
     height: 40%;
     position: absolute;
@@ -28,24 +28,24 @@
     left: 35px;
 }
 
-.h{
+.h {
     margin-top: -8px;
     margin-left: 2px;
 }
 
-#words{
+#words {
     width: 80%;
     height: 100%;
 }
 
-#peterstatus{
+#peterstatus {
     /* width: 100%; */
     width: 420px;
     height: 10vh;
     /* border: 1px solid blue; */
 }
 
-#peterpp{
+#peterpp {
     width: 13%;
     height: 70%;
     background: url(images/Mr\ Peter.jpeg);
@@ -54,14 +54,14 @@
     margin-top: 2%;
 }
 
-#okikistatus{
+#okikistatus {
     /* width: 100%; */
     width: 420px;
     height: 10vh;
     /* border: 1px solid blue; */
 }
 
-#okikipp{
+#okikipp {
     width: 13%;
     height: 70%;
     background: url(images/okiki.jpeg);
@@ -70,14 +70,14 @@
     margin-top: 2%;
 }
 
-#bolustatus{
+#bolustatus {
     /* width: 100%; */
     width: 420px;
     height: 10vh;
     /* border: 1px solid blue; */
 }
 
-#bolupp{
+#bolupp {
     width: 13%;
     height: 70%;
     background: url(images/Mr\ Bolu.jpeg);
@@ -86,14 +86,14 @@
     margin-top: 2%;
 }
 
-#akinstatus{
+#akinstatus {
     /* width: 100%; */
     width: 420px;
     height: 10vh;
     /* border: 1px solid blue; */
 }
 
-#akinpp{
+#akinpp {
     width: 13%;
     height: 70%;
     background: url(images/butterfly.jpeg);
@@ -102,14 +102,14 @@
     margin-top: 2%;
 }
 
-#salamstatus{
+#salamstatus {
     /* width: 100%; */
     width: 420px;
     height: 10vh;
     /* border: 1px solid blue; */
 }
 
-#salampp{
+#salampp {
     width: 13%;
     height: 70%;
     background: url(images/butterfly.jpeg);
@@ -118,16 +118,16 @@
     margin-top: 2%;
 }
 
-footer{
+footer {
     width: 420px;
     padding-left: 5%;
 }
 
-footer span{
+footer span {
     font-size: 12px;
 }
 
-#wordingstatus{
+#wordingstatus {
     width: 2.5%;
     height: 5vh;
     background: rgb(210, 238, 231);
@@ -136,7 +136,7 @@ footer span{
     left: 370px;
 }
 
-#mediastatus{
+#mediastatus {
     width: 3.5%;
     height: 7vh;
     background: green;
@@ -153,64 +153,64 @@ footer span{
 
 
 
-.center{
+.center {
     width: 100%;
     height: 100%;
     background-color: #128c7e;
     width: 420px;
     height: 120px;
-    
-    
+
+
 }
 
-.nav{
+.nav {
     list-style: none;
     padding: 0;
     color: white;
     font-size: 20px;
 }
 
-.lin{
+.lin {
     display: inline;
     position: absolute;
     left: 15px;
-    top:40px;
+    top: 40px;
 }
 
-.blah{
+.blah {
     margin-left: 300px;
     margin-top: 40px;
     display: flex;
 }
 
-.cam{
+.cam {
     margin-right: 20px;
 }
 
-.search{
+.search {
     margin-right: 15px;
 }
 
-.dots{
+.dots {
     margin-top: 5px;
 }
 
-.line{
+.line {
     padding-right: 5px;
     display: inline;
-    margin-top: 40px;    
+    margin-top: 40px;
     margin-left: 15px;
 }
 
-.lind{
+.lind {
     text-align: center;
     display: inline;
     margin-left: 90px;
 }
 
-.nave{
+.nave {
     position: absolute;
-    top: 87px;    
+    top: 87px;
     float: left;
     list-style: none;
     padding: 0;
@@ -218,42 +218,42 @@ footer span{
     font-size: 15px;
 }
 
-.anc{
+.anc {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     color: #96b0ac;
 }
 
-.img{
+.img {
     width: 17px;
 }
 
-.com{
+.com {
     position: absolute;
     top: 0px;
 }
 
-.img2{
+.img2 {
     width: 27px;
 }
 
-.img3{
+.img3 {
     margin-top: -8px;
     width: 37px;
 }
-        
-.img4{
+
+.img4 {
     width: 23px;
 }
 
 @media (max-width:420px) {
-    #wordingstatus{
+    #wordingstatus {
         width: 10%;
         top: 710px;
         left: 360px;
     }
 
-    #mediastatus{
+    #mediastatus {
         width: 15%;
         top: 780px;
         left: 350px;
