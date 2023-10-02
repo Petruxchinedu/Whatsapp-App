@@ -2,9 +2,10 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="style.css" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
   <title>Chat-WhatsApp</title>
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> -->
 </head>
@@ -13,58 +14,116 @@
 
   <div class="center">
     <ul class="nav">
-      <li class="lin">WhatsApp</li>
-      <div>
-        <div>
-          <li class="line"><img class="img3" src="./images/3-dot-icon-0.jpg" alt=""></li>
+        <li class="lin">WhatsApp</li>
+        <div class="blah">
+            <li class="cam"><img class="img2" src="./images/q61ueakv4t27793qam1ro6876h.jpg" alt=""></li>
+            <li class="search"><img class="img" src="./images/search-13-256.jpg" alt=""></li>
+            <li class="dots"><img class="img3" id="dot" src="./images/3-dot-icon-0.jpg" alt=""><div id="ne">
+              <div id="threedotsdropdown" class="">
+                <a href="">New group</a>
+                <a href="">New broadcast</a>
+                <a href="">Linked devices</a>
+                <a href="">Starred messages</a>
+                <a href="">Settings</a>
+              </div>
+            </div></li>
         </div>
-        <div id="threedotsdropdown" class="">
-          <a href="">New group</a>
-          <a href="">New broadcast</a>
-          <a href="">Linked devices</a>
-          <a href="">Starred messages</a>
-          <a href="">Settings</a>
-        </div>
-      </div>
-      <li class="line"><img class="img" src="./images/search-13-256.jpg" alt=""></li>
-      <li class="line"><img class="img2" src="./images/q61ueakv4t27793qam1ro6876h.jpg" alt=""></li>
     </ul>
-
     <ul class="nave">
-      <li class="com"><a href="community.html"><img class="img4" src="./images/many-people-icon-35.png.jpg" alt=""></a>
-      </li>
-      <li class="lind"><a class="anc" href="index.html">Chats</a></li>
-      <li class="lind"><a class="anc" href="status.html">Status</a></li>
-      <li class="lind"><a class="anc" href="calls.html">Calls</a></li>
+        <li class="com"><a href="community.html"><img class="img4" src="./images/many-people-icon-35.png.jpg"
+                    alt=""></a></li>
+        <li class="lind"><a class="anc" href="index.html">Chats</a></li>
+        <li class="lind"><a class="anc" href="status.html">Status</a></li>
+        <li class="lind"><a class="anc" href="calls.html">Calls</a></li>
     </ul>
-  </div>
+</div>
 
-  <div class="divy">
-    <img src="/Images/Mr Bolu.jpeg" id="bolimg" alt="">
-    <p>Mr Boluwatife</p>
-  </div>
-  <div class="divy">
-    <img src="/Images/okiki.jpeg" id="bolimg" alt="">
-    <p>Mr Okiki</p>
-  </div>
-  <div class="divy">
-    <img src="/Images/Mr Peter.jpeg" id="bolimg" alt="">
-    <p>Mr Peter</p>
-  </div>
-  <div class="divy">
-    <img src="/Images/butterfly.jpeg" id="bolimg" alt="">
-    <p>Mr Akin</p>
-  </div>
-  <div class="divy">
-    <img src="/Images/butterfly.jpeg" id="bolimg" alt="">
-    <p>Mr Salam</p>
-  </div>
-  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" id="chaticon" fill="currentColor"
-    class="bi bi-chat-left-text-fill" viewBox="0 0 16 16">
-    <path
-      d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5z" />
-  </svg>
-
+<section>
+    <div id="recentupdates" class="overflow-y-auto" >
+        <div id="peterstatus" class="d-flex mt-3">
+          <div id="peterpp" class="border border-success border-2 rounded-circle ms-3 position-relative"></div>
+          <div id="words" class="ms-4 pt-2">
+              <span class="fw-bold fs-6">Mr Peter</span>
+              <p class="text-body-tertiary">Hello Mr Akin, how are you doing?</p>
+          </div>
+        </div>
+        <div id="okikistatus" class="d-flex">
+          <div id="okikipp" class="border border-success border-2 rounded-circle ms-3 position-relative"></div>
+          <div id="words" class="ms-4 pt-2">
+              <span class="fw-bold fs-6">Mr Okiki</span>
+              <p class="text-body-tertiary">Have given her the product Yesterday</p>
+          </div>
+        </div>
+        <div id="bolustatus" class="d-flex">
+          <div id="bolupp" class="border border-success border-2 rounded-circle ms-3 position-relative"></div>
+          <div id="words" class="ms-4 pt-2">
+              <span class="fw-bold fs-6">Mr Boluwatife</span>
+              <p class="text-body-tertiary">Has the Match started?</p>
+          </div>
+        </div>
+        <div id="akinstatus" class="d-flex">
+          <div id="akinpp" class="border border-success border-2 rounded-circle ms-3    position-relative"></div>
+              <div id="words" class="ms-4 pt-2">
+                  <span class="fw-bold fs-6">Mr Akin</span>
+                  <p class="text-body-tertiary">wasup, class dey today?</p>
+              </div>
+          </div>
+        </div>
+        <div id="salamstatus" class="d-flex">
+          <div id="salampp" class="border border-success border-2 rounded-circle ms-3 position-relative"></div>
+          <div id="words" class="ms-4 pt-2">
+              <span class="fw-bold fs-6">Mr Salam</span>
+              <p class="text-body-tertiary">Guy leave that thing</p>
+          </div>
+          
+        </div>
+    
+        <div id="peterstatus" class="d-flex mt-3">
+          <div id="peterpp" class="border border-success border-2 rounded-circle ms-3 position-relative"></div>
+          <div id="words" class="ms-4 pt-2">
+              <span class="fw-bold fs-6">Mr Peter</span>
+              <p class="text-body-tertiary">Hello Mr Akin, how are you doing?</p>
+          </div>
+          <div class="gp">
+            <a href="contact.html"><img src="chat (2).png"  width="40px" id="img3" alt=""></a>
+          </div>
+        </div>
+        <div id="okikistatus" class="d-flex">
+          <div id="okikipp" class="border border-success border-2 rounded-circle ms-3 position-relative"></div>
+          <div id="words" class="ms-4 pt-2">
+              <span class="fw-bold fs-6">Mr Okiki</span>
+              <p class="text-body-tertiary">Have given her the product Yesterday</p>
+          </div>
+        </div>
+        <div id="bolustatus" class="d-flex">
+          <div id="bolupp" class="border border-success border-2 rounded-circle ms-3 position-relative"></div>
+          <div id="words" class="ms-4 pt-2">
+              <span class="fw-bold fs-6">Mr Boluwatife</span>
+              <p class="text-body-tertiary">Has the Match started?</p>
+          </div>
+        </div>
+        <div id="akinstatus" class="d-flex">
+          <div id="akinpp" class="border border-success border-2 rounded-circle ms-3    position-relative"></div>
+              <div id="words" class="ms-4 pt-2">
+                  <span class="fw-bold fs-6">Mr Akin</span>
+                  <p class="text-body-tertiary">wasup, class dey today?</p>
+              </div>
+          </div>
+        </div>
+        <div id="salamstatus" class="d-flex">
+          <div id="salampp" class="border border-success border-2 rounded-circle ms-3 position-relative"></div>
+          <div id="words" class="ms-4 pt-2">
+              <span class="fw-bold fs-6">Mr Salam</span>
+              <p class="text-body-tertiary">Guy leave that thing</p>
+          </div>
+          
+        </div>
+    </div>
+  
+    
+    
+</section>
+<script src="main.js"></script>
 </body>
 
 </html>

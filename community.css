@@ -29,7 +29,7 @@
 }
 
 .blah{
-    margin-left: 340px;
+    margin-left: 280px;
     margin-top: 40px;
     display: flex;
 }
@@ -72,7 +72,7 @@
 .anc{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
-    color: #96b0ac;
+    color: white;
 }
 
 .img{

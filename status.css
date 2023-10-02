@@ -47,7 +47,7 @@
 
 #peterpp {
     width: 13%;
-    height: 70%;
+    height: 80%;
     background: url(images/Mr\ Peter.jpeg);
     background-position: center;
     background-size: cover;
@@ -63,7 +63,7 @@
 
 #okikipp {
     width: 13%;
-    height: 70%;
+    height: 80%;
     background: url(images/okiki.jpeg);
     background-position: center;
     background-size: cover;
@@ -79,7 +79,7 @@
 
 #bolupp {
     width: 13%;
-    height: 70%;
+    height: 80%;
     background: url(images/Mr\ Bolu.jpeg);
     background-position: center;
     background-size: cover;
@@ -95,7 +95,7 @@
 
 #akinpp {
     width: 13%;
-    height: 70%;
+    height: 80%;
     background: url(images/butterfly.jpeg);
     background-position: center;
     background-size: cover;
@@ -111,7 +111,7 @@
 
 #salampp {
     width: 13%;
-    height: 70%;
+    height: 80%;
     background: url(images/butterfly.jpeg);
     background-position: center;
     background-size: cover;
@@ -147,8 +147,28 @@ footer span {
     left: 365px;
 }
 
-
-
+#threedotsdropdown {
+    width: 180px;
+    height: 250px;
+    background: white;
+    position: fixed;
+    top: 70px;
+    left: 215px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    z-index: 99;
+    display: none;
+    border: 1px solid #128c7e; ;
+}
+#threedotsdropdown a {
+    padding-top: 25px;
+    padding-left: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 
 
 
@@ -178,7 +198,7 @@ footer span {
 }
 
 .blah {
-    margin-left: 300px;
+    margin-left: 280px;
     margin-top: 40px;
     display: flex;
 }
@@ -217,11 +237,36 @@ footer span {
     color: white;
     font-size: 15px;
 }
-
+#img3{
+    margin-left: 10px;
+    margin-top: 6px;
+}
+#img3{
+    margin-left: 13px;
+    margin-top: 6px;
+}
+.gp{
+    background-color: #128c7e;
+    width: 45px;
+    height: 40px;
+    border-radius: 10px;
+     margin-left: 340px;
+     margin-top: 10px; 
+    position: fixed;
+}
+.gpz{
+    background-color: #b0f0d2;
+    width: 45px;
+    height: 40px;
+    border-radius: 10px;
+     margin-left: 340px;
+     margin-top: 10px; 
+    position: fixed;
+}
 .anc {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
-    color: #96b0ac;
+    color: white;
 }
 
 .img {
